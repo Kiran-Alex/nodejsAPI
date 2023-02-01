@@ -1,0 +1,26 @@
+#name {
+    width: 50rem;
+    margin:0 auto;
+}
+
+.mt-5 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    width : 320px;
+    height:320px;
+    margin:0 auto;
+    border-radius:3px ;
+    transform: translateY(-35px);
+
+}
+
+#text {
+    transform: translateX(24px);
+
+}
