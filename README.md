@@ -1,3 +1,3 @@
 To start the server type 
-node index.js
+**node index.js** in the terminal
 
