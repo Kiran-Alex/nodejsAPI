@@ -12,7 +12,8 @@ console.log("hello")
 button.addEventListener("click",ret);
 
 function ret() {
-    url = `http://localhost:3000/${inputfield.value}`;
+    const encodedAuthorName = encodeURIComponent(inputfield.value);
+    url = `http://localhost:4000/books/${encodedAuthorName}`;
 console.log(url);
     fetch(url,{method:'GET'})
     
